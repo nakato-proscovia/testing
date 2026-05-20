@@ -184,7 +184,7 @@ body {
   text-decoration: none;
 }
 
-/* ===== ABOUT ===== */
+/* ABOUT */
 .about-label {
   font-size: 11px;
   font-weight: 700;
@@ -280,7 +280,7 @@ body {
   flex: 1;
 }
 
-.mentor-img-placeholder {
+/* .mentor-img-placeholder {
   width: 80px;
   height: 80px;
   flex-shrink: 0;
@@ -292,10 +292,18 @@ body {
   align-items: center;
   justify-content: center;
   gap: 4px;
+} */
+
+.mentor-img {
+  width: 350px;
+  height: 250px;
+  border-radius: 12px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
-.mentor-img-placeholder span { font-size: 22px; }
-.mentor-img-placeholder p { font-size: 9px; color: var(--muted); text-align: center; }
+/* .mentor-img-placeholder span { font-size: 22px; }
+.mentor-img-placeholder p { font-size: 9px; color: var(--muted); text-align: center; } */
 
 /* ===== EVENT CARDS ===== */
 .event-card {
@@ -325,7 +333,7 @@ body {
 .event-card .title    { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
 .event-card .location { font-size: 11px; color: var(--muted); }
 
-/* ===== JOB CARDS ===== */
+/* JOB CARDS */
 .jobs-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -367,7 +375,7 @@ body {
   cursor: pointer;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 .footer {
   background: #1A1A1A;
   padding: 32px 20px 16px;
@@ -457,7 +465,7 @@ body {
 }
 
 
-/* ===== RESPONSIVE - DESKTOP (768px and above) ===== */
+/* RESPONSIVE - DESKTOP */
 @media (min-width: 768px) {
 
   body {
@@ -629,7 +637,7 @@ body {
   }
 }
 
-/* ===== LARGE SCREENS (1200px and above) ===== */
+/* LARGE SCREENS (1200px and above) */
 @media (min-width: 1200px) {
 
   .navbar { padding: 16px 120px; }
